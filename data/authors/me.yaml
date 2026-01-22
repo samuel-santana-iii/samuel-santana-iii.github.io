@@ -1,0 +1,87 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Samuel Santana
+  given: Samuel
+  family: Santana
+postnominals: []
+status:
+  icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
+role: Senior Systems Software Engineer
+email: thesamuelsantana@gmail.com
+bio: |
+  Senior Systems Software Engineer specializing in infrastructure automation, reliability engineering, and secure OS architecture. 6+ years of experience bridging the gap between software development (C#/.NET) and operations (Linux/Windows). Expert in architecting "Golden Image" deployment strategies, building custom CI/CD pipelines, and developing self-healing internal tools for distributed device fleets. Proven track record of optimizing legacy systems and securing kiosk environments in regulated industries.
+
+affiliations:
+  - name: Tech Corp
+    url: https://techcorp.example.com
+
+links:
+  - icon: at-symbol
+    url: mailto:thesamuelsantana@gmail.com
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/caboose16
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/samuel-santana-7932b5160/
+
+interests:
+  - Web Development
+  - Cloud Architecture
+  - Open Source
+  - Developer Experience
+
+education:
+  - degree: B.S. Computer Science
+    institution: California State University San Bernardino
+    start: 2013-09-01
+    end: 2019-05-01
+    summary: |
+      Focus on programming within a unix terminal environment.
+      Worked on a group project to make a 2D game using Unity and C#.
+
+experience:
+  - role: Senior Software Engineer
+    org: Planet Bingo
+    start: 2019-10-01
+    summary: |
+      Maintained C# Server Backend, C++ Game Client, and NSIS installers.
+      Modified a Linux OS to run our Windows C++ Game Clients on outdated Windows 10 devices.
+  - role: Webmaster and Toastmaster
+    org: Toastmasters Confident Speakers Club
+    start: 2023-02-01
+    summary: |
+      Currently am the President of the club. I setup club meetings, and organize our events. 
+      Developed the club  website https://PalmDesertToastmasters.com using a Wordpress Template. It was designed to require minimal changes to maintain the website content.
+      Almost finished with 5 levels of projecs designed to turn anyone into a better public speaker and leader
+
+skills:
+  - name: Development
+    items:
+      - label: C#
+        level: 5
+      - label: Raeact
+        level: 5
+      - label: Node.js
+        level: 5
+      - label: Python
+        level: 4
+  - name: DevOps
+    items:
+      - label: Docker
+        level: 4
+      - label: AWS
+        level: 4
+      - label: CI/CD
+        level: 5
+
+languages:
+  - name: English
+    level: 5
+    label: Native
+  - name: Spanish
+    level: 4
+    label: Fluent
+
+awards: []
