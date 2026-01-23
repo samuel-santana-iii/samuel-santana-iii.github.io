@@ -11,7 +11,7 @@ status:
 role: Senior Systems Software Engineer
 email: thesamuelsantana@gmail.com
 bio: |
-  Senior Systems Software Engineer specializing in infrastructure automation, reliability engineering, and secure OS architecture. 6+ years of experience bridging the gap between software development (C#/.NET) and operations (Linux/Windows). Expert in architecting "Golden Image" deployment strategies, building custom CI/CD pipelines, and developing self-healing internal tools for distributed device fleets. Proven track record of optimizing legacy systems and securing kiosk environments in regulated industries.
+  Software engineer who owns the full stack — from application code to the OS underneath it. I maintain legacy .NET and C++ codebases, build custom Linux systems, and create internal tools that prevent configuration errors before they cause outages.
 
 affiliations:
   - name: Tech Corp
