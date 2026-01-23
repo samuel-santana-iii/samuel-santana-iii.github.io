@@ -221,8 +221,8 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I'm currently looking for **senior engineering** or **tech lead** roles.
-        
+        I'm currently looking for roles where I can **build Linux systems** and **maintain critical infrastructure**.
+
         Let's connect and discuss how I can help your team.
       button:
         text: 'Download Resume'
