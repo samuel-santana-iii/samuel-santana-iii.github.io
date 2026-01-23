@@ -22,9 +22,9 @@ sections:
         enable: true
         prefix: "I build"
         strings:
-          - "Customized Linux OSs"
-          - "C# Apps"
-          - "Dev Pipelines"
+          - "Custom Linux Systems"
+          - "Internal Tools"
+          - "Legacy Codebase Features"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
