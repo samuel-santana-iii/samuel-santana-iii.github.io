@@ -3,8 +3,8 @@ title: "Nginx Apt Cache Server"
 date: 2024-12-14
 summary: "Linux Apt Package Caching Server that reduces internet bandwidth usage and speeds up system updates"
 tags:
+  - Infrastructure
   - Nginx
-  - Backend
 tech_stack:
   - Nginx
 links:
@@ -21,8 +21,8 @@ highlights:
 
 ### The Challenge
 
-After migrating the fleet to Linux Mint, we enabled automatic security updates to maintain compliance. However, this introduced a physical infrastructure scaling problem.
-- **The Bottleneck:** When 100+ devices simultaneously attempted to download `apt` updates and packages from the internet, it saturated the local network bandwidth.
+As we prepare to migrate hundreds of devices to Linux Mint, automatic security updates will be essential for compliance. However, this introduces a physical infrastructure scaling problem.
+- **The Bottleneck:** When hundreds of devices simultaneously attempt to download `apt` updates from the internet, it would saturate the local network bandwidth.
 - **The Impact:** Updates would time out, fail, or degrade the performance of the core business application running on the devices.
 
 ### The Solution
@@ -34,10 +34,10 @@ I implemented an **Nginx-based Apt Caching Proxy** to act as a local "Update Acc
 
 **2. Caching Logic**
 *   **First Request:** The proxy fetches the package from the internet (e.g., `linux-headers-5.15.0`).
-*   **Subsequent Requests:** The proxy serves the cached file from local disk storage to the remaining 99 devices.
+*   **Subsequent Requests:** The proxy serves the cached file from local disk storage to all other devices.
 *   **Cache Expiry:** Configured strict caching rules to ensure critical security patches were always fresh while static binaries remained cached.
-                                                            ### The Outcome
-*   **Bandwidth Reduction:** External internet traffic for updates dropped by **~90%** (1 download vs. 100).
-*   **Velocity:** Fleet-wide updates that used to take hours now completed in minutes, limited only by local LAN speed.
-*   **Stability:** Eliminated update timeouts and network congestion issues. 
+### The Expected Outcome
+*   **Bandwidth Reduction:** External internet traffic for updates will drop by ~90% (1 download vs. hundreds).
+*   **Velocity:** Fleet-wide updates will complete in minutes, limited only by local LAN speed.
+*   **Stability:** Eliminates update timeouts and network congestion issues. 
 

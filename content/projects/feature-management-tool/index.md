@@ -3,10 +3,10 @@ title: "Nginx Feature Management Tool"
 date: 2025-12-01
 summary: "Feature management tool that allows technicians to easily configure our Nginx servers"
 tags:
+  - Tooling
   - Nginx
   - PowerShell
   - WPF
-  - Backend
 tech_stack:
   - Nginx
   - PowerShell

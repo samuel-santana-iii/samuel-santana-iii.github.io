@@ -22,9 +22,9 @@ sections:
         enable: true
         prefix: "I build"
         strings:
-          - "Customized Linux OSs"
-          - "C# Apps"
-          - "Dev Pipelines"
+          - "Custom Linux Systems"
+          - "Internal Tools"
+          - "Legacy Codebase Features"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
@@ -59,12 +59,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Full-Stack
-          tag: Full-Stack
-        - name: Frontend
-          tag: Frontend
-        - name: Backend
-          tag: Backend
+        - name: Infrastructure
+          tag: Infrastructure
+        - name: Tooling
+          tag: Tooling
       default_button_index: 0
       # Archive link auto-shown if more projects exist than 'count' above
       # archive:
@@ -207,7 +205,7 @@ sections:
       text: |-
         I'm always interested in hearing about new projects and opportunities.
         Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: alex@example.com
+      email: thesamuelsantana@gmail.com
       autolink: true
     design:
       columns: '1'
@@ -223,8 +221,8 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I'm currently looking for **senior engineering** or **tech lead** roles.
-        
+        I'm currently looking for roles where I can **build Linux systems** and **maintain critical infrastructure**.
+
         Let's connect and discuss how I can help your team.
       button:
         text: 'Download Resume'
