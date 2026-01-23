@@ -28,7 +28,7 @@ highlights:
 ## CASE STUDY 1: Legacy Modernization & Secure Kiosk Architecture
 
 ### The Challenge
-With the End-of-Life (EOL) for Windows 10 approaching, the organization faced a critical decision regarding its fleet of hundreds of field devices.
+With the End-of-Life (EOL) for Windows 10 approaching, the organization faced a critical decision regarding its field devices (currently 2 deployed, with plans to scale to hundreds).
 *   **The Risk:** Continuing to run an unsupported OS would expose the fleet to unpatched security vulnerabilities.
 *   **The Constraint:** The core proprietary application was a legacy Windows binary. Rewriting it for Linux native would take years and cost significant resources.
 *   **The Hardware:** Replacing the hardware fleet to support Windows 11 was cost-prohibitive.

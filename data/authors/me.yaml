@@ -45,8 +45,7 @@ experience:
     org: Planet Bingo
     start: 2019-10-01
     summary: |
-      Maintained C# Server Backend, C++ Game Client, and NSIS installers.
-      Modified a Linux OS to run our Windows C++ Game Clients on outdated Windows 10 devices.
+      Architected a custom Linux "golden image" to run legacy Windows software, eliminating Windows 10 upgrade costs. Also maintain legacy C# and C++ codebases, and built internal tools that saved hundreds of hours of manual work.
   - role: Webmaster and Toastmaster
     org: Toastmasters Confident Speakers Club
     start: 2023-02-01
