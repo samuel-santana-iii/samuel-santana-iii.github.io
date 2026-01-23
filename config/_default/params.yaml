@@ -90,8 +90,10 @@ hugoblox:
     align: center                       # left | center | right
     # Feature toggles
     search: true
-    theme_toggle: true
-    theme_picker: true
+    # theme_toggle: true  # disabled - dark mode only
+    # theme_picker: true  # disabled - dark mode only
+    theme_toggle: false
+    theme_picker: false
     language_switcher: true
     # Call-to-action button
     cta:
