@@ -59,12 +59,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Full-Stack
-          tag: Full-Stack
-        - name: Frontend
-          tag: Frontend
-        - name: Backend
-          tag: Backend
+        - name: Infrastructure
+          tag: Infrastructure
+        - name: Tooling
+          tag: Tooling
       default_button_index: 0
       # Archive link auto-shown if more projects exist than 'count' above
       # archive:
