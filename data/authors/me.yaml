@@ -46,13 +46,11 @@ experience:
     start: 2019-10-01
     summary: |
       Architected a custom Linux "golden image" to run legacy Windows software, eliminating Windows 10 upgrade costs. Also maintain legacy C# and C++ codebases, and built internal tools that saved hundreds of hours of manual work.
-  - role: Webmaster and Toastmaster
+  - role: Club President & Webmaster
     org: Toastmasters Confident Speakers Club
     start: 2023-02-01
     summary: |
-      Currently am the President of the club. I setup club meetings, and organize our events. 
-      Developed the club  website https://PalmDesertToastmasters.com using a Wordpress Template. It was designed to require minimal changes to maintain the website content.
-      Almost finished with 5 levels of projecs designed to turn anyone into a better public speaker and leader
+      Lead a public speaking club as President, organizing meetings and events. Completed 4 of 5 Toastmasters Pathways levels in leadership and communication. Built the [club website](https://PalmDesertToastmasters.com) using a WordPress theme, modified for easy maintenance.
 
 skills:
   - name: Languages
