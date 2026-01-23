@@ -38,8 +38,7 @@ education:
     start: 2013-09-01
     end: 2019-05-01
     summary: |
-      Focus on programming within a unix terminal environment.
-      Worked on a group project to make a 2D game using Unity and C#.
+      Developed a Mars-themed platformer level for a 2D game using Unity and C#.
 
 experience:
   - role: Senior Software Engineer
