@@ -1,5 +1,5 @@
 ---
-title: "Docker Deployment Guide: From Development to Production"
+title: "[SAMPLE] Docker Deployment Guide: From Development to Production"
 date: 2024-10-15
 summary: "Learn how to containerize your applications with Docker, optimize images, and deploy to production with best practices"
 tags:
