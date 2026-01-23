@@ -57,23 +57,31 @@ experience:
       Almost finished with 5 levels of projecs designed to turn anyone into a better public speaker and leader
 
 skills:
-  - name: Development
+  - name: Languages
     items:
       - label: C#
         level: 5
-      - label: Raeact
+      - label: C++
+        level: 3
+      - label: PowerShell
         level: 5
-      - label: Node.js
-        level: 5
-      - label: Python
+      - label: Bash
         level: 4
-  - name: DevOps
+  - name: Systems & Infrastructure
     items:
+      - label: Linux
+        level: 5
+      - label: Nginx
+        level: 4
       - label: Docker
         level: 4
-      - label: AWS
+  - name: Development Tools
+    items:
+      - label: WPF
         level: 4
-      - label: CI/CD
+      - label: SQL Server
+        level: 4
+      - label: Git
         level: 5
 
 languages:

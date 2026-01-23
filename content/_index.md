@@ -90,27 +90,29 @@ sections:
         - name: Languages
           items:
             - name: C#
-              icon: devicon/typescript
+              icon: devicon/csharp
+            - name: C++
+              icon: devicon/cplusplus
             - name: PowerShell
-              icon: devicon/javascript
+              icon: devicon/powershell
             - name: Bash
-              icon: devicon/python
-            - name: CMD
-              icon: devicon/go
-        - name: Frontend
+              icon: devicon/bash
+        - name: Systems & Infrastructure
           items:
-            - name: WPF
-              icon: devicon/react
-            - name: WinForms
-              icon: devicon/nextjs
-        - name: Backend
-          items:
-            - name: SQL Server
-              icon: devicon/nodejs
-        - name: DevOps
-          items:
+            - name: Linux
+              icon: devicon/linux
+            - name: Nginx
+              icon: devicon/nginx
             - name: Docker
               icon: devicon/docker
+        - name: Development Tools
+          items:
+            - name: WPF
+              icon: devicon/dotnetcore
+            - name: SQL Server
+              icon: devicon/microsoftsqlserver
+            - name: Git
+              icon: devicon/git
     design:
       style: grid
       show_levels: false
