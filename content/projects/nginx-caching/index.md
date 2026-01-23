@@ -3,8 +3,8 @@ title: "Nginx Apt Cache Server"
 date: 2024-12-14
 summary: "Linux Apt Package Caching Server that reduces internet bandwidth usage and speeds up system updates"
 tags:
+  - Infrastructure
   - Nginx
-  - Backend
 tech_stack:
   - Nginx
 links:

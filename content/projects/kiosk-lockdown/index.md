@@ -2,8 +2,8 @@
 title: "Kiosk Lockdown"
 date: 2025-06-15
 summary: "Modifying a Linux OS to run a Windows app in Kiosk Mode"
-tags: 
-  - Full-Stack
+tags:
+  - Infrastructure
   - Linux
   - Cubic
   - Scripting
