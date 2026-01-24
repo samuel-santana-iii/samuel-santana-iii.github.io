@@ -1,6 +1,6 @@
 # Samuel Santana III - Portfolio
 
-My personal portfolio website showcasing my projects, and experience.
+My personal portfolio website showcasing my projects and experience.
 
 ## Tech Stack
 
