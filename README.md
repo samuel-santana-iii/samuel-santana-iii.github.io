@@ -23,7 +23,7 @@ This site is built using the [HugoBlox Developer Portfolio template](https://git
 
 ## Live Site
 
-🌐 [Visit the live site](#) *(Coming soon)*
+🌐 [Visit the live site](https://samuel-santana-iii.github.io/)
 
 ## Local Development
 
