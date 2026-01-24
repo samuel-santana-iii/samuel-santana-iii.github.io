@@ -89,7 +89,7 @@ hugoblox:
     # Menu alignment
     align: center                       # left | center | right
     # Feature toggles
-    search: true
+    search: false
     # theme_toggle: true  # disabled - dark mode only
     # theme_picker: true  # disabled - dark mode only
     theme_toggle: false
@@ -170,12 +170,10 @@ hugoblox:
     citations:
       style: apa                        # apa | mla | chicago | ieee
 
-  # ────────────────────────────────────────────────────────────────────────────
   # SEARCH
-  # Site search
   # ────────────────────────────────────────────────────────────────────────────
   search:
-    enable: true
+    enable: false
     # Trending/suggested search terms
     suggestions: []
     # Quick action shortcuts in search modal
