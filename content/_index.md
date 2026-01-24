@@ -174,27 +174,27 @@ sections:
         padding: ["4rem", "0", "4rem", "0"]
   
   # Recent Blog Posts
-  - block: collection
-    id: blog
-    content:
-      title: Recent Posts
-      subtitle: 'Thoughts on web development, tech, and more'
-      text: ''
-      filters:
-        folders:
-          - blog
-        exclude_featured: false
-      count: 3
-      order: desc
-    design:
-      view: card
-      columns: 3
-      background:
-        color:
-          light: "#f5f5f5"
-          dark: "#08080c"
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
+  # - block: collection
+  #   id: blog
+  #   content:
+  #     title: Recent Posts
+  #     subtitle: 'Thoughts on web development, tech, and more'
+  #     text: ''
+  #     filters:
+  #       folders:
+  #         - blog
+  #       exclude_featured: false
+  #     count: 3
+  #     order: desc
+  #   design:
+  #     view: card
+  #     columns: 3
+  #     background:
+  #       color:
+  #         light: "#f5f5f5"
+  #         dark: "#08080c"
+  #     spacing:
+  #       padding: ["4rem", "0", "4rem", "0"]
   
   # Contact Section
   - block: contact-info
@@ -211,8 +211,8 @@ sections:
       columns: '1'
       background:
         color:
-          light: "#ffffff"
-          dark: "#0d0d12"
+          light: "#f5f5f5"
+          dark: "#08080c"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
@@ -235,8 +235,8 @@ sections:
         text_color: dark
       background:
         color:
-          light: "#f5f5f5"
-          dark: "#08080c"
+          light: "#ffffff"
+          dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "6rem", "0"]
 ---
