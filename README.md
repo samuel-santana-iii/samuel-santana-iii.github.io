@@ -8,6 +8,8 @@ Built with:
 - **Hugo** - Static site generator
 - **HugoBlox** - Portfolio template (modified)
 - **Tailwind CSS** - Styling
+- **hugomods/hugo:std-exts** - A hugo image with go git, node.js, npm, and SCSS/SASS support
+- **nginx:alpine-slim** - Slim Nginx web server image
 
 ## Template & License
 
@@ -47,4 +49,11 @@ The site will be available at `http://localhost:1313`
 
 ```bash
 pnpm build
+```
+
+## Building an image with Dockerfile
+
+```bash
+docker build -t portfolio-static .
+```
 ```
