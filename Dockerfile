@@ -15,7 +15,7 @@ RUN npm install -g pnpm && pnpm install
 RUN hugo --minify
 
 # --- Stage 2: Serve with Nginx ---
-FROM nginx:alpine
+FROM nginx:alpine-slim
 
 # Copy the static site files from the builder stage
 COPY --from=builder /src/public /usr/share/nginx/html
