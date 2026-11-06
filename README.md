@@ -51,9 +51,6 @@ The site will be available at `http://localhost:1313`
 pnpm build
 ```
 
-## Building an image with Dockerfile
+## Deployment
 
-```bash
-docker build -t portfolio-static .
-```
-```
+The site is deployed to GitHub Pages by `.github/workflows/deploy.yml` on every push to `main`. The custom domain is set in `CNAME`.
